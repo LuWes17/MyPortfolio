@@ -1,0 +1,43 @@
+.socialBar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: var(--social-bar-width);
+  height: 100vh;
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-index-social-bar);
+}
+
+.iconList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.iconLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  transition: all var(--transition-base);
+}
+
+.icon {
+  font-size: var(--font-size-2xl);
+  transition: all var(--transition-base);
+}
+
+.iconLink:hover .icon {
+  color: var(--color-white);
+  transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 1023px) {
+  .socialBar {
+    display: none;
+  }
+}

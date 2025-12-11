@@ -1,0 +1,33 @@
+.card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  transition: all var(--transition-base);
+}
+
+/* Variants */
+.default {
+  box-shadow: var(--shadow-md);
+}
+
+.flat {
+  box-shadow: none;
+  border: 1px solid var(--color-gray-200);
+}
+
+.elevated {
+  box-shadow: var(--shadow-lg);
+}
+
+/* Hover Effect */
+.hover:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card {
+    padding: var(--spacing-md);
+  }
+}

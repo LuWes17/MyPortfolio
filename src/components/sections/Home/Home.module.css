@@ -1,0 +1,112 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, var(--color-white) 0%, var(--color-gray-100) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  max-width: var(--max-content-width);
+  width: 100%;
+  z-index: 1;
+}
+
+.textContent {
+  max-width: 700px;
+}
+
+.greeting {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-gray-700);
+  margin-bottom: var(--spacing-sm);
+  animation: slideInLeft 0.8s ease-out;
+}
+
+.name {
+  font-size: var(--font-size-5xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.1;
+  animation: slideInLeft 0.8s ease-out 0.2s both;
+}
+
+.highlight {
+  color: var(--color-primary);
+}
+
+.titleWrapper {
+  min-height: 60px;
+  margin-bottom: var(--spacing-lg);
+  animation: slideInLeft 0.8s ease-out 0.4s both;
+}
+
+.title {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-gray-800);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+}
+
+.tagline {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-600);
+  line-height: 1.8;
+  margin-bottom: var(--spacing-2xl);
+  animation: slideInLeft 0.8s ease-out 0.6s both;
+}
+
+.cta {
+  animation: slideInLeft 0.8s ease-out 0.8s both;
+}
+
+/* Responsive */
+@media (max-width: 1023px) {
+  .home {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: var(--spacing-xl) var(--spacing-md);
+    padding-top: 100px;
+  }
+
+  .greeting {
+    font-size: var(--font-size-xl);
+  }
+
+  .name {
+    font-size: var(--font-size-4xl);
+  }
+
+  .title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .tagline {
+    font-size: var(--font-size-base);
+  }
+
+  .titleWrapper {
+    min-height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: var(--font-size-3xl);
+  }
+
+  .title {
+    font-size: var(--font-size-xl);
+  }
+}

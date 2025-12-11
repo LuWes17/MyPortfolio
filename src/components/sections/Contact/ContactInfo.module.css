@@ -1,0 +1,100 @@
+.contactInfo {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  margin-bottom: var(--spacing-md);
+}
+
+.subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-xl);
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background-color: var(--color-gray-100);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+  text-decoration: none;
+  color: inherit;
+}
+
+.infoItem:hover {
+  background-color: var(--color-primary);
+  transform: translateX(5px);
+}
+
+.iconWrapper {
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all var(--transition-base);
+}
+
+.infoItem:hover .iconWrapper {
+  background-color: var(--color-black);
+}
+
+.icon {
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  transition: color var(--transition-base);
+}
+
+.infoItem:hover .icon {
+  color: var(--color-primary);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: 2px;
+}
+
+.value {
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: var(--font-size-xl);
+  }
+
+  .iconWrapper {
+    width: 45px;
+    height: 45px;
+  }
+
+  .icon {
+    font-size: var(--font-size-lg);
+  }
+}
