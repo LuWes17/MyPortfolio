@@ -1,6 +1,6 @@
 .about {
-  min-height: 80vh;
-  max-height: 80vh;
+  min-height: 100vh;
+  max-height: 100vh;
   padding: var(--spacing-3xl) var(--spacing-xl);
   background-color: var(--color-white);
 }
