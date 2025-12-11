@@ -1,6 +1,8 @@
 .category {
-  opacity: 0;
+  opacity: 1;
   margin-bottom: var(--spacing-lg);
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .category:last-child {

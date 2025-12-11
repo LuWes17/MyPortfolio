@@ -25,7 +25,7 @@ const contactItems = [
   {
     icon: FaLinkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/louise',
+    value: 'https://www.linkedin.com/in/jan-louise-bon-881392262/',
     link: personalInfo.linkedin
   }
 ];

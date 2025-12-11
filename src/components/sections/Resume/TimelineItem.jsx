@@ -9,7 +9,7 @@ const TimelineItem = ({ item }) => {
   const Icon = isEducation ? FaGraduationCap : FaBriefcase;
 
   return (
-    <div ref={ref} className={`${styles.timelineItem} ${isVisible ? 'slide-up' : ''}`}>
+    <div ref={ref} className={styles.timelineItem} data-visible={isVisible}>
       <div className={styles.iconWrapper}>
         <Icon className={styles.icon} />
       </div>

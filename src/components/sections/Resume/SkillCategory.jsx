@@ -6,7 +6,7 @@ const SkillCategory = ({ title, skills }) => {
   const [ref, isVisible] = useIntersectionObserver({ freezeOnceVisible: true });
 
   return (
-    <div ref={ref} className={`${styles.category} ${isVisible ? 'slide-up' : ''}`}>
+    <div ref={ref} className={styles.category} data-visible={isVisible}>
       <h3 className={styles.title}>{title}</h3>
       <div className={styles.skillsWrapper}>
         {skills.map((skill, index) => (

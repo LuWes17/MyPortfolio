@@ -17,18 +17,6 @@ const Portfolio = () => {
       <div className={styles.container}>
         <SectionTitle>Portfolio</SectionTitle>
 
-        {/* Filter Buttons */}
-        <div className={styles.filters}>
-          {projectCategories.map((category) => (
-            <FilterButton
-              key={category}
-              category={category}
-              isActive={activeFilter === category}
-              onClick={setActiveFilter}
-            />
-          ))}
-        </div>
-
         {/* Projects Grid */}
         <div className={styles.projectsGrid}>
           {filteredProjects.map((project) => (

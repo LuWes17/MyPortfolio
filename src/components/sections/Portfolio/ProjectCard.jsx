@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
   const [ref, isVisible] = useIntersectionObserver({ freezeOnceVisible: true });
 
   return (
-    <div ref={ref} className={`${styles.projectCardWrapper} ${isVisible ? 'scale-in' : ''}`}>
+    <div ref={ref} className={styles.projectCardWrapper} data-visible={isVisible}>
       <Card hover className={styles.projectCard}>
         <div className={styles.imageWrapper}>
           <img

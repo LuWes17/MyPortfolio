@@ -8,7 +8,7 @@ export const projectCategories = [
 export const projects = [
   {
     id: 1,
-    title: "Smartwatch Health Application for Older Adults",
+    title: "TimelyCare",
     shortTitle: "Smartwatch Health App",
     category: "Mobile",
     tags: ["Kotlin", "Android Studio", "Health Tech", "UX Design", "Participatory Design"],
@@ -23,13 +23,34 @@ export const projects = [
     ],
     period: "Jan. 2025 – Present",
     status: "In Development",
-    images: ["/project-images/smartwatch-placeholder.jpg"],
-    github: "https://github.com/louise/smartwatch-health",
+    images: ["/project-images/smartwatch.png"],
+    github: "https://github.com/LuWes17/TimelyCare.git",
     demo: "",
     technologies: ["Kotlin", "Android Studio", "Wearable OS"]
   },
-  {
+    {
     id: 2,
+    title: "Distributed Database Transactions Manager",
+    shortTitle: "DDB Transactions Manager",
+    category: "Frontend",
+    tags: ["React", "Node.js", "Express", "Distributed Systems", "UI/UX"],
+    description:
+      "Designed and developed the frontend interface for a distributed database web application simulating concurrency control, replication, and global failure recovery across three nodes. Built responsive UI components for triggering transactions, monitoring node states, and visualizing isolation-level behavior.",
+    features: [
+      "Interactive dashboard for multi-node transactions",
+      "Real-time node status and replication logs",
+      "Failure and recovery simulation controls",
+      "Data fragmentation and replication visualization"
+    ],
+    period: "October 2025 – November 2025",
+    status: "Completed",
+    images: ["/project-images/DDB.png"],
+    github: "https://github.com/XENNNOOOO/STADVDB-MC02.git",
+    demo: "",
+    technologies: ["React", "Node.js", "Express", "Distributed Systems"]
+  },
+  {
+    id: 3,
     title: "Infomatik",
     shortTitle: "Infomatik Civic Platform",
     category: "Full Stack",
@@ -45,13 +66,13 @@ export const projects = [
     ],
     period: "Aug. 2025 – Sept. 2025",
     status: "Completed",
-    images: ["/project-images/infomatik-placeholder.jpg"],
-    github: "https://github.com/louise/infomatik",
+    images: ["/project-images/infomatik.png"],
+    github: "https://github.com/LuWes17/infomatik.git",
     demo: "",
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "SMS Integration"]
   },
   {
-    id: 3,
+    id: 4,
     title: "LexSon Inventory and Billings Management System",
     shortTitle: "LexSon Inventory System",
     category: "Full Stack",
@@ -67,8 +88,8 @@ export const projects = [
     ],
     period: "June 2024 – August 2024",
     status: "Completed",
-    images: ["/project-images/lexson-placeholder.jpg"],
-    github: "https://github.com/louise/lexson-inventory",
+    images: ["/project-images/Lexson.png"],
+    github: "https://github.com/LexsonAdmin/LIBSP.git",
     demo: "",
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "PDF Generation"]
   }

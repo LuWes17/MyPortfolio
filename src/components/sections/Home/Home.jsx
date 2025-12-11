@@ -22,12 +22,10 @@ const Home = () => {
               sequence={[
                 'Full Stack Developer',
                 2000,
-                'MERN Stack Developer',
-                2000,
-                'React Developer',
+                'Mobile Developer',
                 2000,
                 'Web Developer',
-                2000,
+                2000
               ]}
               wrapper="h3"
               speed={50}
@@ -43,7 +41,7 @@ const Home = () => {
               onClick={() => scrollToSection('contact')}
               size="large"
             >
-              What About Me?
+              Contact Me
             </Button>
           </div>
         </div>
