@@ -12,5 +12,12 @@ export const socialLinks = [
     url: "https://www.linkedin.com/in/jan-louise-bon-881392262/",
     icon: "linkedin",
     username: "louise"
+  },
+  {
+    id: 3,
+    name: "Download CV",
+    url: "/CV_BON_JANLOUISE.pdf",
+    icon: "download",
+    username: "louise"
   }
 ];

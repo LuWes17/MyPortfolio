@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaDownload } from 'react-icons/fa';
 import { socialLinks } from '../../../data/social';
 import styles from './SocialBar.module.css';
 
@@ -7,7 +7,8 @@ const iconMap = {
   github: FaGithub,
   linkedin: FaLinkedin,
   email: FaEnvelope,
-  phone: FaPhone
+  phone: FaPhone,
+  download: FaDownload
 };
 
 const SocialBar = () => {
@@ -21,8 +22,8 @@ const SocialBar = () => {
               key={link.id}
               href={link.url}
               className={styles.iconLink}
-              target={link.icon === 'github' || link.icon === 'linkedin' ? '_blank' : undefined}
-              rel={link.icon === 'github' || link.icon === 'linkedin' ? 'noopener noreferrer' : undefined}
+              target={link.icon === 'github' || link.icon === 'linkedin' || link.icon === 'download' ? '_blank' : undefined}
+              rel={link.icon === 'github' || link.icon === 'linkedin' || link.icon === 'download' ? 'noopener noreferrer' : undefined}
               aria-label={link.name}
               title={link.name}
             >
