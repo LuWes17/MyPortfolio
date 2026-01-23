@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import emailjs from 'emailjs-com';
 import Button from '../../common/Button/Button';
 import styles from './ContactForm.module.css';
 
@@ -10,30 +11,57 @@ const ContactForm = () => {
     message: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    // Initialize EmailJS with your public key
+    emailjs.init('P6AQc0T79Ymvozojq');
+  }, []);
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
+    setError(null);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
+    setError(null);
 
-    // Show success message (form is UI only, not functional)
-    setIsSubmitted(true);
+    try {
+      await emailjs.send(
+        'service_qqc4mf6',
+        'template_o8ufs5l',
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message
+        }
+      );
 
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-      });
-      setIsSubmitted(false);
-    }, 3000);
+      setIsLoading(false);
+      setIsSubmitted(true);
+
+      // Reset form after 3 seconds
+      setTimeout(() => {
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: ''
+        });
+        setIsSubmitted(false);
+      }, 3000);
+    } catch (error) {
+      console.error('Failed to send email:', error);
+      setError('Failed to send message. Please try again.');
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -43,11 +71,16 @@ const ContactForm = () => {
       {isSubmitted ? (
         <div className={styles.successMessage}>
           <h4>Thank You!</h4>
-          <p>Your message has been received. I'll get back to you soon!</p>
-          <p className={styles.note}>(Note: This is a demo form. Email functionality will be added later.)</p>
+          <p>Your message has been sent successfully. I'll get back to you soon!</p>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className={styles.form}>
+          {error && (
+            <div className={styles.errorMessage}>
+              <p>{error}</p>
+            </div>
+          )}
+
           <div className={styles.formRow}>
             <div className={styles.formGroup}>
               <label htmlFor="name" className={styles.label}>
@@ -62,6 +95,7 @@ const ContactForm = () => {
                 required
                 className={styles.input}
                 placeholder="Your Name"
+                disabled={isLoading}
               />
             </div>
 
@@ -78,6 +112,7 @@ const ContactForm = () => {
                 required
                 className={styles.input}
                 placeholder="your.email@example.com"
+                disabled={isLoading}
               />
             </div>
           </div>
@@ -95,6 +130,7 @@ const ContactForm = () => {
               required
               className={styles.input}
               placeholder="Subject"
+              disabled={isLoading}
             />
           </div>
 
@@ -111,11 +147,12 @@ const ContactForm = () => {
               rows="6"
               className={styles.textarea}
               placeholder="Your message..."
+              disabled={isLoading}
             ></textarea>
           </div>
 
-          <Button type="submit" size="large" fullWidth>
-            Send Message
+          <Button type="submit" size="large" fullWidth disabled={isLoading}>
+            {isLoading ? 'Sending...' : 'Send Message'}
           </Button>
         </form>
       )}

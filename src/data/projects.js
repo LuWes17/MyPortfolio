@@ -68,7 +68,7 @@ export const projects = [
     status: "Completed",
     images: ["/project-images/infomatik.png"],
     github: "https://github.com/LuWes17/infomatik.git",
-    demo: "",
+    demo: "https://infomatik.onrender.com/",
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "SMS Integration"]
   },
   {

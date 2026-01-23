@@ -45,6 +45,8 @@
   border-radius: var(--radius-md);
   transition: all var(--transition-base);
   background-color: var(--color-white);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .input:focus,
@@ -83,6 +85,20 @@
   font-size: var(--font-size-sm) !important;
   color: var(--color-gray-600) !important;
   font-style: italic;
+}
+
+.errorMessage {
+  padding: var(--spacing-md);
+  background-color: #fee;
+  border: 2px solid #c33;
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.errorMessage p {
+  font-size: var(--font-size-sm);
+  color: #c33;
+  margin: 0;
 }
 
 /* Responsive */
