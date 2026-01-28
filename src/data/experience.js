@@ -1,6 +1,20 @@
 export const experience = [
-  {
+   {
     id: 1,
+    title: "Frontend Developer",
+    company: "Lion Sales Funnel LLC",
+    location: "Remote",
+    period: "January 2026 – Present",
+    type: "experience",
+    current: true,
+    responsibilities: [
+      "Implemented hidden input fields for UTM tracking across multiple landing page forms to support marketing attribution and analytics",
+      "Reviewed and visually assessed frontend quality of client-facing websites, focusing on UI consistency, usability, and overall user experience",
+      "Collaborated with existing codebases to ensure tracking integrations did not impact form functionality or page performance"
+    ]
+  },
+  {
+    id: 2,
     title: "Freelance Full Stack Developer",
     company: "Self-Employed",
     location: "Remote",
@@ -16,7 +30,7 @@ export const experience = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: "Human Resources Intern",
     company: "Publicis Groupe - Leo Burnett",
     location: "Ayala Ave, Makati",

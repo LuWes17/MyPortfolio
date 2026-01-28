@@ -8,6 +8,47 @@ export const projectCategories = [
 export const projects = [
   {
     id: 1,
+    title: "BurnAtlas",
+    shortTitle: "Controlled Burn Planner",
+    category: "Web",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Weather APIs",
+      "Stripe",
+      "MongoDB",
+      "SaaS",
+      "Environmental Tech"
+    ],
+    description: "Designed and built a SaaS web platform for planning controlled agricultural burns using real-time and forecasted weather data. BurnAtlas helps land managers identify safe burn windows through a proprietary burn score algorithm, state regulation awareness, and tier-based access to extended forecasts and compliance data.",
+    features: [
+      "Location-based weather analysis using ZIP code and state validation",
+      "Proprietary burn score algorithm with safety classifications",
+      "Multi-day forecast table with color-coded burn conditions",
+      "Best day-to-burn recommendations based on forecast analysis",
+      "State and county burn ban visibility with regulatory references",
+      "Fire danger and air quality index indicators",
+      "Free vs Pro tier access with paywall enforcement",
+      "Admin dashboard for users, subscriptions, and regulations management"
+    ],
+    period: "Jan. 2026 - Present",
+    status: "In Development",
+    images: ["/project-images/BurnAtlas.png"],
+    github: "", // keep empty if private
+    demo: "",
+    technologies: [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "MongoDB Atlas",
+      "Stripe",
+      "Vercel",
+      "Weather API"
+    ]
+  },
+  {
+    id: 2,
     title: "TimelyCare",
     shortTitle: "Smartwatch Health App",
     category: "Mobile",
@@ -29,7 +70,7 @@ export const projects = [
     technologies: ["Kotlin", "Android Studio", "Wearable OS"]
   },
     {
-    id: 2,
+    id: 3,
     title: "Distributed Database Transactions Manager",
     shortTitle: "DDB Transactions Manager",
     category: "Frontend",
@@ -50,7 +91,7 @@ export const projects = [
     technologies: ["React", "Node.js", "Express", "Distributed Systems"]
   },
   {
-    id: 3,
+    id: 4,
     title: "Infomatik",
     shortTitle: "Infomatik Civic Platform",
     category: "Full Stack",
@@ -72,7 +113,7 @@ export const projects = [
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "SMS Integration"]
   },
   {
-    id: 4,
+    id: 5,
     title: "LexSon Inventory and Billings Management System",
     shortTitle: "LexSon Inventory System",
     category: "Full Stack",

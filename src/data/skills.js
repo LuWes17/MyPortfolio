@@ -28,17 +28,29 @@ export const skills = {
       "MongoDB Compass",
       "Figma",
       "ESLint",
-      "Chrome DevTools"
+      "Chrome DevTools",
+      "Vercel"
     ]
   },
   libraries: {
-    title: "Libraries",
+    title: "Libraries & Platforms",
     items: [
+      "Tailwind CSS",
+      "shadcn/ui",
       "Axios",
       "Context API",
       "React Router",
       "Mongoose",
-      "JWT"
+      "JWT",
+      "Stripe API"
+    ]
+  },
+  databases: {
+    title: "Databases & Services",
+    items: [
+      "MongoDB Atlas",
+      "REST APIs",
+      "Weather APIs"
     ]
   }
 };
