@@ -8,6 +8,47 @@ export const projectCategories = [
 export const projects = [
   {
     id: 1,
+    title: "Participay",                                                                                                                                     
+    shortTitle: "Research Participation Platform",                                                                                                           
+    category: "Web",                                                                                                                                         
+    tags: [                                                                                                                                                  
+      "Next.js",                                                                                                                                             
+      "TypeScript",                                                                                                                                          
+      "Supabase",                                                                                                                                            
+      "Tailwind CSS",                                                                                                                                        
+      "Authentication",                                                                                                                                      
+      "SaaS",                                                                                                                                                
+      "Research Tech"                                                                                                                                        
+    ],                                                                                                                                                       
+    description: "Designed and built a web platform connecting researchers with survey participants who want to earn incentives by completing research studies. Participay streamlines the participant recruitment process through secure authentication, profile management, and role-based access control for researchers and administrators.",                                                                                                                        
+    features: [                                                                                                                                              
+      "Two-step registration process with comprehensive form validation",                                                                                    
+      "Profile photo upload with client-side image compression",                                                                                             
+      "Philippines-based phone number validation and formatting (+63)",                                                                                      
+      "reCAPTCHA integration for bot prevention and security",                                                                                               
+      "Role-based access control (participant, researcher, admin)",                                                                                          
+      "Supabase authentication and database management",                                                                                                     
+      "Secure password requirements with real-time validation feedback",                                                                                     
+      "Admin dashboard for user management and research post moderation",                                                                                    
+      "Personalized landing page for authenticated participants",                                                                                            
+      "Profile management with photo display and user details"                                                                                               
+    ],
+    period: "Feb. 2026 – Present",
+    status: "In Development",
+    images: ["/project-images/Participay.png"],
+    github: "", // keep empty if private
+    demo: "https://participay.vercel.app/",
+    technologies: [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "Vercel",
+      "reCAPTCHA"
+    ]
+  }, 
+  {
+    id: 2,
     title: "BurnAtlas",
     shortTitle: "Controlled Burn Planner",
     category: "Web",
@@ -35,7 +76,7 @@ export const projects = [
     status: "In Development",
     images: ["/project-images/BurnAtlas.png"],
     github: "", // keep empty if private
-    demo: "",
+    demo: "https://burnatlas.org/",
     technologies: [
       "Next.js 14",
       "TypeScript",
@@ -48,7 +89,7 @@ export const projects = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: "TimelyCare",
     shortTitle: "Smartwatch Health App",
     category: "Mobile",
@@ -70,7 +111,7 @@ export const projects = [
     technologies: ["Kotlin", "Android Studio", "Wearable OS"]
   },
     {
-    id: 3,
+    id: 4,
     title: "Distributed Database Transactions Manager",
     shortTitle: "DDB Transactions Manager",
     category: "Frontend",
@@ -91,7 +132,7 @@ export const projects = [
     technologies: ["React", "Node.js", "Express", "Distributed Systems"]
   },
   {
-    id: 4,
+    id: 5,
     title: "Infomatik",
     shortTitle: "Infomatik Civic Platform",
     category: "Full Stack",
@@ -113,7 +154,7 @@ export const projects = [
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "SMS Integration"]
   },
   {
-    id: 5,
+    id: 6,
     title: "LexSon Inventory and Billings Management System",
     shortTitle: "LexSon Inventory System",
     category: "Full Stack",
