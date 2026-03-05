@@ -8,6 +8,43 @@ export const projectCategories = [
 export const projects = [
   {
     id: 1,
+    title: "inara",
+    shortTitle: "Structured Community Capital Platform",
+    category: "Web",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "React 19",
+      "Tailwind CSS",
+      "Radix UI",
+      "Resend",
+      "FinTech",
+      "SaaS",
+    ],
+    description:
+      "Designed and built the marketing and pitch website for inara, a structured community capital platform that modernizes contribution-based rotating savings systems for institutional environments. inara enables debt-free access to lump-sum capital through coordinated weekly savings cohorts — sponsored by nonprofits, employers, and community organizations.",
+    features: [
+      "Custom interactive SVG cohort diagram visualizing rotating savings cycles with animated arrows and member nodes",
+      "Institution-facing marketing pages with structured value propositions for nonprofits and employers",
+      "Multi-page architecture: How It Works, For Institutions, Security, About, and Contact",
+      "Contact form with Resend email API integration and server-side route handling"
+    ],
+    period: "Feb. 2026 – Present",
+    status: "In Development",
+    images: ["/project-images/inara.png"],
+    github: "", // private
+    demo: "https://inarapool.com",
+    technologies: [
+      "Next.js 16",
+      "TypeScript",
+      "Tailwind CSS",
+      "Radix UI",
+      "Resend",
+      "Vercel",
+    ],
+  },
+  {
+    id: 2,
     title: "Participay",                                                                                                                                     
     shortTitle: "Research Participation Platform",                                                                                                           
     category: "Web",                                                                                                                                         
@@ -48,7 +85,7 @@ export const projects = [
     ]
   }, 
   {
-    id: 2,
+    id: 3,
     title: "BurnAtlas",
     shortTitle: "Controlled Burn Planner",
     category: "Web",
@@ -89,7 +126,7 @@ export const projects = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: "TimelyCare",
     shortTitle: "Smartwatch Health App",
     category: "Mobile",
@@ -111,7 +148,7 @@ export const projects = [
     technologies: ["Kotlin", "Android Studio", "Wearable OS"]
   },
     {
-    id: 4,
+    id: 5,
     title: "Distributed Database Transactions Manager",
     shortTitle: "DDB Transactions Manager",
     category: "Frontend",
@@ -132,7 +169,7 @@ export const projects = [
     technologies: ["React", "Node.js", "Express", "Distributed Systems"]
   },
   {
-    id: 5,
+    id: 6,
     title: "Infomatik",
     shortTitle: "Infomatik Civic Platform",
     category: "Full Stack",
@@ -154,7 +191,7 @@ export const projects = [
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "SMS Integration"]
   },
   {
-    id: 6,
+    id: 7,
     title: "LexSon Inventory and Billings Management System",
     shortTitle: "LexSon Inventory System",
     category: "Full Stack",
