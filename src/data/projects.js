@@ -80,7 +80,6 @@ export const projects = [
       "Supabase auth with deep link activation and Shopify membership sync via Edge Functions",
     ],
     period: "March 2026 – Present",
-    status: "In Development",
     images: ["/project-images/CardForge.PNG"],
     github: "",
     demo: "",
@@ -121,7 +120,6 @@ export const projects = [
       "Haptic feedback on mobile capture via Vibration API",
     ],
     period: "March 2026 – Present",
-    status: "In Development",
     images: ["/project-images/Trakie-ai.png"],
     github: "",
     demo: "",
@@ -160,7 +158,6 @@ export const projects = [
       "Stats carousel with autoplay highlighting operational savings",
     ],
     period: "March 2026 – Present",
-    status: "In Production",
     images: ["/project-images/Trakie.png"],
     github: "",
     demo: "https://trakie.ai",
@@ -196,7 +193,6 @@ export const projects = [
       "Contact form with Resend email API integration and server-side route handling"
     ],
     period: "Feb. 2026 – Present",
-    status: "In Production",
     images: ["/project-images/inara.png"],
     github: "", // private
     demo: "https://inarapool.com",
@@ -237,7 +233,6 @@ export const projects = [
       "Profile management with photo display and user details"                                                                                               
     ],
     period: "Feb. 2026 – Present",
-    status: "In Development",
     images: ["/project-images/Participay.png"],
     github: "", // keep empty if private
     demo: "https://participay.vercel.app/",
@@ -276,7 +271,6 @@ export const projects = [
       "Admin dashboard for users, subscriptions, and regulations management"
     ],
     period: "Jan. 2026 - Present",
-    status: "In Development",
     images: ["/project-images/BurnAtlas.png"],
     github: "", // keep empty if private
     demo: "https://burnatlas.org/",
@@ -307,7 +301,6 @@ export const projects = [
       "Voice-controlled interface options"
     ],
     period: "Jan. 2025 – Present",
-    status: "Completed",
     images: ["/project-images/smartwatch.png"],
     github: "https://github.com/LuWes17/TimelyCare.git",
     demo: "",
@@ -328,7 +321,6 @@ export const projects = [
       "Data fragmentation and replication visualization"
     ],
     period: "October 2025 – November 2025",
-    status: "Completed",
     images: ["/project-images/DDB.png"],
     github: "https://github.com/XENNNOOOO/STADVDB-MC02.git",
     demo: "",
@@ -350,7 +342,6 @@ export const projects = [
       "Automated rice distribution system with scheduling and mass SMS notifications"
     ],
     period: "Aug. 2025 – Sept. 2025",
-    status: "Completed",
     images: ["/project-images/infomatik.png"],
     github: "https://github.com/LuWes17/infomatik.git",
     demo: "https://infomatik.onrender.com/",
@@ -372,7 +363,6 @@ export const projects = [
       "Multi-user access with role-based permissions"
     ],
     period: "June 2024 – August 2024",
-    status: "Completed",
     images: ["/project-images/Lexson.png"],
     github: "https://github.com/LexsonAdmin/LIBSP.git",
     demo: "",
