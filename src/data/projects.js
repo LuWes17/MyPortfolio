@@ -79,7 +79,7 @@ export const projects = [
     ],
     images: ["/project-images/CardForge.PNG"],
     github: "",
-    demo: "",
+    demo: "https://apps.apple.com/ph/app/cardforge-tcg-pricing-app/id6761015666",
     technologies: [
       "React Native",
       "Expo SDK 55",
