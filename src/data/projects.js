@@ -34,7 +34,6 @@ export const projects = [
       "Full i18n support (English/Spanish) with next-intl and ISR pre-rendering",
       "CollectJS/MGPay payment integration with webhook processing",
     ],
-    period: "March 2026 – Present",
     status: "In Production",
     images: ["/project-images/allin1.png"],
     github: "",
@@ -79,7 +78,6 @@ export const projects = [
       "Print queue with thumbnail previews, sorting modes, and full-size label navigation",
       "Supabase auth with deep link activation and Shopify membership sync via Edge Functions",
     ],
-    period: "March 2026 – Present",
     images: ["/project-images/CardForge.PNG"],
     github: "",
     demo: "",
@@ -119,7 +117,6 @@ export const projects = [
       "Client-side image compression (≤1200px, JPEG 0.85) before relay transmission",
       "Haptic feedback on mobile capture via Vibration API",
     ],
-    period: "March 2026 – Present",
     images: ["/project-images/Trakie-ai.png"],
     github: "",
     demo: "",
@@ -157,7 +154,6 @@ export const projects = [
       "Product category video bubbles with hover play/pause interactions",
       "Stats carousel with autoplay highlighting operational savings",
     ],
-    period: "March 2026 – Present",
     images: ["/project-images/Trakie.png"],
     github: "",
     demo: "https://trakie.ai",
@@ -192,7 +188,6 @@ export const projects = [
       "Multi-page architecture: How It Works, For Institutions, Security, About, and Contact",
       "Contact form with Resend email API integration and server-side route handling"
     ],
-    period: "Feb. 2026 – Present",
     images: ["/project-images/inara.png"],
     github: "", // private
     demo: "https://inarapool.com",
@@ -232,7 +227,6 @@ export const projects = [
       "Personalized landing page for authenticated participants",                                                                                            
       "Profile management with photo display and user details"                                                                                               
     ],
-    period: "Feb. 2026 – Present",
     images: ["/project-images/Participay.png"],
     github: "", // keep empty if private
     demo: "https://participay.vercel.app/",
@@ -270,7 +264,6 @@ export const projects = [
       "Free vs Pro tier access with paywall enforcement",
       "Admin dashboard for users, subscriptions, and regulations management"
     ],
-    period: "Jan. 2026 - Present",
     images: ["/project-images/BurnAtlas.png"],
     github: "", // keep empty if private
     demo: "https://burnatlas.org/",
@@ -300,7 +293,6 @@ export const projects = [
       "Large, accessible UI optimized for older adults",
       "Voice-controlled interface options"
     ],
-    period: "Jan. 2025 – Present",
     images: ["/project-images/smartwatch.png"],
     github: "https://github.com/LuWes17/TimelyCare.git",
     demo: "",
@@ -320,7 +312,6 @@ export const projects = [
       "Failure and recovery simulation controls",
       "Data fragmentation and replication visualization"
     ],
-    period: "October 2025 – November 2025",
     images: ["/project-images/DDB.png"],
     github: "https://github.com/XENNNOOOO/STADVDB-MC02.git",
     demo: "",
@@ -341,7 +332,6 @@ export const projects = [
       "Administrative dashboard with analytics and real-time system statistics",
       "Automated rice distribution system with scheduling and mass SMS notifications"
     ],
-    period: "Aug. 2025 – Sept. 2025",
     images: ["/project-images/infomatik.png"],
     github: "https://github.com/LuWes17/infomatik.git",
     demo: "https://infomatik.onrender.com/",
@@ -362,7 +352,6 @@ export const projects = [
       "Sales analytics and reporting dashboard",
       "Multi-user access with role-based permissions"
     ],
-    period: "June 2024 – August 2024",
     images: ["/project-images/Lexson.png"],
     github: "https://github.com/LexsonAdmin/LIBSP.git",
     demo: "",

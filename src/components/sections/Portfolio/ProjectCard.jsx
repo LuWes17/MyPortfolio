@@ -74,7 +74,6 @@ const ProjectCard = ({ project }) => {
 
           <div className={styles.footer}>
             <span className={styles.status}>{project.status}</span>
-            <span className={styles.period}>{project.period}</span>
           </div>
         </div>
       </Card>
