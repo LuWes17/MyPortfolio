@@ -34,7 +34,6 @@ export const projects = [
       "Full i18n support (English/Spanish) with next-intl and ISR pre-rendering",
       "CollectJS/MGPay payment integration with webhook processing",
     ],
-    status: "In Production",
     images: ["/project-images/allin1.png"],
     github: "",
     demo: "https://allin1rentals.com",

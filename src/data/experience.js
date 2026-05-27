@@ -4,7 +4,7 @@ export const experience = [
     title: "Frontend Developer",
     company: "Lion Sales Funnel LLC",
     location: "Remote",
-    period: "January 2026 – Present",
+    period: "January 2026 – March 2026",
     type: "experience",
     current: true,
     responsibilities: [

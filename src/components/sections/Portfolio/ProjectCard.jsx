@@ -72,9 +72,6 @@ const ProjectCard = ({ project }) => {
             </div>
           )}
 
-          <div className={styles.footer}>
-            <span className={styles.status}>{project.status}</span>
-          </div>
         </div>
       </Card>
     </div>
