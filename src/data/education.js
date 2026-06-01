@@ -1,19 +1,20 @@
 export const education = [
   {
     id: 1,
-    degree: "Bachelor of Science in Computer Science",
+    degree: "B.S. Computer Science",
     major: "Major in Software Technology",
     institution: "De La Salle University",
-    location: "Taft Avenue, Manila",
-    period: "Sept. 2022 – Present",
+    location: "Manila, Philippines",
+    period: "Sept. 2022 – Present (Expected 2026)",
     type: "education",
     current: true
   },
   {
     id: 2,
     degree: "Accountancy and Business Management",
+    major: "Transferred to De La Salle University",
     institution: "Far Eastern University",
-    location: "Sampaloc, Manila",
+    location: "Manila, Philippines",
     period: "Aug. 2020 – July 2022",
     type: "education",
     current: false

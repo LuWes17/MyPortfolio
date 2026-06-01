@@ -39,9 +39,9 @@ const Resume = () => {
           <div className={styles.skillsGrid}>
             <SkillCategory title={skills.languages.title} skills={skills.languages.items} />
             <SkillCategory title={skills.frameworks.title} skills={skills.frameworks.items} />
-            <SkillCategory title={skills.tools.title} skills={skills.tools.items} />
+            <SkillCategory title={skills.databases.title} skills={skills.databases.items} />
             <SkillCategory title={skills.libraries.title} skills={skills.libraries.items} />
-            <SkillCategory title={skills.databases.title} skills={skills.databases.items} /> 
+            <SkillCategory title={skills.tools.title} skills={skills.tools.items} />
           </div>
         </div>
       </div>

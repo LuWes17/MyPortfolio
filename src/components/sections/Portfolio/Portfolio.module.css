@@ -17,6 +17,23 @@
   justify-content: center;
 }
 
+.tierGroup {
+  margin-bottom: var(--spacing-3xl);
+}
+
+.tierGroup:last-child {
+  margin-bottom: 0;
+}
+
+.tierTitle {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-gray-900);
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-gray-200);
+}
+
 .projectsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));

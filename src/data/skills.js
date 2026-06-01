@@ -2,77 +2,97 @@ export const skills = {
   languages: {
     title: "Languages",
     items: [
-      "HTML/CSS",
+      "TypeScript",
       "JavaScript",
-      "C/C++",
       "SQL",
       "Kotlin",
-      "Java"
+      "HTML/CSS",
+      "GLSL",
+      "C/C++",
+      "Python"
     ]
   },
   frameworks: {
-    title: "Frameworks",
+    title: "Frameworks & Libraries",
     items: [
-      "React",
+      "Next.js 16 (App Router)",
+      "React 19",
+      "React Native",
+      "Expo",
       "Node.js",
-      "Express"
-    ]
-  },
-  tools: {
-    title: "Developer Tools",
-    items: [
-      "Git",
-      "VS Code",
-      "Visual Studio",
-      "Postman",
-      "MongoDB Compass",
-      "Figma",
-      "ESLint",
-      "Chrome DevTools",
-      "Vercel"
-    ]
-  },
-  libraries: {
-    title: "Libraries & Platforms",
-    items: [
-      "Tailwind CSS",
+      "Express",
+      "Tailwind CSS v4",
       "shadcn/ui",
-      "Axios",
-      "Context API",
-      "React Router",
-      "Mongoose",
-      "JWT",
-      "Stripe API"
+      "Framer Motion",
+      "React Three Fiber",
+      "GSAP"
     ]
   },
   databases: {
-    title: "Databases & Services",
+    title: "Databases & Backend",
     items: [
+      "PostgreSQL",
       "MongoDB Atlas",
-      "REST APIs",
-      "Weather APIs"
+      "Supabase",
+      "Drizzle ORM",
+      "Mongoose",
+      "Redis",
+      "Zod",
+      "PL/pgSQL",
+      "Row-Level Security",
+      "Deno Edge Functions"
+    ]
+  },
+  libraries: {
+    title: "AI & Integrations",
+    items: [
+      "Anthropic Claude API",
+      "Stripe (Checkout, Webhooks, 3DS)",
+      "Twilio Verify",
+      "Socket.IO",
+      "NOAA API",
+      "YouTube Data API v3",
+      "Microsoft Graph API",
+      "Semaphore SMS",
+      "Backblaze B2",
+      "n8n"
+    ]
+  },
+  tools: {
+    title: "Tools & DevOps",
+    items: [
+      "Git",
+      "Vercel",
+      "Railway",
+      "Supabase CLI",
+      "EAS Build",
+      "GitHub Actions",
+      "Husky",
+      "Postman",
+      "Figma",
+      "MS Power Automate"
     ]
   }
 };
 
 // Alternative flat array format for different display options
 export const skillsList = [
-  "HTML/CSS",
+  "TypeScript",
   "JavaScript",
-  "React",
+  "Next.js 16",
+  "React 19",
+  "React Native",
   "Node.js",
   "Express",
+  "PostgreSQL",
   "MongoDB",
-  "C/C++",
+  "Supabase",
+  "Tailwind CSS v4",
+  "Anthropic Claude API",
+  "Stripe",
+  "Redis",
   "SQL",
   "Kotlin",
-  "Java",
   "Git",
-  "VS Code",
-  "Postman",
-  "Figma",
-  "Axios",
-  "JWT",
-  "Mongoose",
-  "React Router"
+  "Vercel"
 ];

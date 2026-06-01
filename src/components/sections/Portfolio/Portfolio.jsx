@@ -1,34 +1,30 @@
-import React, { useState } from 'react';
-import { projects, projectCategories } from '../../../data/projects';
+import React from 'react';
+import { projects, projectTiers } from '../../../data/projects';
 import SectionTitle from '../../common/SectionTitle/SectionTitle';
-import FilterButton from './FilterButton';
 import ProjectCard from './ProjectCard';
 import styles from './Portfolio.module.css';
 
 const Portfolio = () => {
-  const [activeFilter, setActiveFilter] = useState('All');
-
-  const filteredProjects = activeFilter === 'All'
-    ? projects
-    : projects.filter(project => project.category === activeFilter);
-
   return (
     <section id="portfolio" className={styles.portfolio}>
       <div className={styles.container}>
         <SectionTitle>Portfolio</SectionTitle>
 
-        {/* Projects Grid */}
-        <div className={styles.projectsGrid}>
-          {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
-        </div>
+        {projectTiers.map((tier) => {
+          const tierProjects = projects.filter((project) => project.tier === tier);
+          if (tierProjects.length === 0) return null;
 
-        {filteredProjects.length === 0 && (
-          <div className={styles.noProjects}>
-            <p>No projects found in this category.</p>
-          </div>
-        )}
+          return (
+            <div key={tier} className={styles.tierGroup}>
+              <h3 className={styles.tierTitle}>{tier}</h3>
+              <div className={styles.projectsGrid}>
+                {tierProjects.map((project) => (
+                  <ProjectCard key={project.id} project={project} />
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
