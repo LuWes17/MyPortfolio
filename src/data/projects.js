@@ -79,7 +79,7 @@ export const projects = [
       "On-device ML Kit OCR card-scanning with fuzzy name/number matching, image-search fallback, and graded-slab cert parsing across 6 grading companies (PSA/BGS/CGC/SGC/CSG/HGA)",
       "Configurable pricing-rule engine (condition brackets, multi-currency FX, rounding, caps) and a pg_cron daily Supabase edge function aggregating portfolio P&L",
     ],
-    images: ["/project-images/CardForge.PNG"],
+    images: ["/project-images/CardForge.png"],
     github: "",
     demo: "https://apps.apple.com/ph/app/cardforge-tcg-pricing-app/id6761015666",
     technologies: [
@@ -118,7 +118,7 @@ export const projects = [
       "Atomic ~250-line PL/pgSQL stored procedure with row-level locking that closes a deal and transactionally creates company, contact, contract, and follow-up records in one operation",
       "Bidirectional GoHighLevel CRM sync via n8n webhooks with idempotency keys, multi-strategy entity resolution, and a last_sync_source echo-guard preventing sync loops",
     ],
-    images: [PLACEHOLDER],
+    images: ["/project-images/DRP.png"],
     github: "",
     demo: "",
     technologies: [
@@ -154,7 +154,7 @@ export const projects = [
       "Pause/approve/resume n8n webhook loop where automations draft content, await human approval, and resume on callback — secured with shared-secret header verification",
       "Microsoft Graph (Outlook, Calendar, OneDrive, Planner) via app-only client-credentials OAuth, with Vitest + Playwright test coverage",
     ],
-    images: [PLACEHOLDER],
+    images: ["/project-images/TLS.png"],
     github: "",
     demo: "",
     technologies: [
@@ -268,7 +268,7 @@ export const projects = [
       "Rule-based clinical risk-scoring engine with admin-configurable A1C thresholds auto-triaging orders into critical/high/standard/low tiers",
       "Automated regulatory monitoring ingesting CMS RSS/Atom feeds (XML parsing, dedup, SHA-256 change detection) plus a BAA e-signature workflow with ~14 SendGrid templates",
     ],
-    images: [PLACEHOLDER],
+    images: ["/project-images/ITS.png"],
     github: "",
     demo: "",
     technologies: [
@@ -304,7 +304,7 @@ export const projects = [
       "Correction-diffing engine computing structured field-level diffs across versioned resubmission snapshots",
       "Real-time multi-dimensional spend analytics with composite indexes targeting sub-2s load at 10,000 records, and trigger-based notification fan-out to Supabase Realtime and Resend",
     ],
-    images: [PLACEHOLDER],
+    images: ["/project-images/Paylance.png"],
     github: "",
     demo: "",
     technologies: [
@@ -375,7 +375,7 @@ export const projects = [
       "Viral referral loop with deep-linked heavenonearth://invite/[CODE] scheme and deferred attribution through sign-up",
       "Dynamically generated 1080×1920 share cards captured via react-native-view-shot and routed to the native share sheet",
     ],
-    images: [PLACEHOLDER],
+    images: ["/project-images/HeavenOnEarth.png"],
     github: "",
     demo: "",
     technologies: [
@@ -445,7 +445,7 @@ export const projects = [
       "Dynamic per-route Open Graph image generation at the edge with next/og, typed JSON-LD structured data, and dynamic sitemap/robots",
       "Validated REST lead-capture endpoints with structured error responses",
     ],
-    images: [PLACEHOLDER],
+    images: ["/project-images/Holm.png"],
     github: "",
     demo: "",
     technologies: [
@@ -517,7 +517,7 @@ export const projects = [
       "Pointer-capture drag-to-rotate with velocity damping/inertia, a one-time wiggle hint, and mobile DPR throttling (1.5× vs 2×)",
       "13-section scroll choreography via GSAP ScrollTrigger and Lenis with reusable reveal/count-up/parallax primitives, gated behind prefers-reduced-motion",
     ],
-    images: [PLACEHOLDER],
+    images: ["/project-images/Neucel.png"],
     github: "",
     demo: "",
     technologies: [
@@ -551,7 +551,7 @@ export const projects = [
       "Data-driven page architecture rendering product, use-case, and pillar routes from typed config modules and shared templates",
       "Ported 5 full Tailwind v4 color palette scales + semantic tokens with dedicated /debug routes to verify visual parity",
     ],
-    images: [PLACEHOLDER],
+    images: ["/project-images/Maxalta.png"],
     github: "",
     demo: "",
     technologies: [
@@ -585,7 +585,7 @@ export const projects = [
       "Custom cookie-based session auth (bcrypt, 30-day server sessions, edge-proxy role routing) over Supabase RLS",
       "Hardened with HTTP security headers, origin-locked CORS, and dual-secret authorization on cron vs manual scraper endpoints",
     ],
-    images: [PLACEHOLDER],
+    images: ["/project-images/Leaderboard.png"],
     github: "",
     demo: "",
     technologies: [
